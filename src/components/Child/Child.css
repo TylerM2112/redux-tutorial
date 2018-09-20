@@ -1,0 +1,16 @@
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  justify-content: space-evenly;
+}
+input {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+}
+input:focus {
+  outline: 0px;
+}

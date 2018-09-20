@@ -26,3 +26,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.propsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.propsContainer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
